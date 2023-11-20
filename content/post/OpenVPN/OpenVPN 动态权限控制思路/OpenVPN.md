@@ -1,6 +1,6 @@
 ---
 title: OpenVPN 动态权限控制思路
-date:  2023-11-20 
+date:  2023-11-19 
 tags: 
  - OpenVPN
  - 权限管理
