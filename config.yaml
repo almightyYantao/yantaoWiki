@@ -129,26 +129,26 @@ menus:
       pageref: /
       pre: home
       weight: 1
-    - identifier: about
-      name: 关于
-      pageref: /about.html
-      pre: user
-      weight: 2
-    - identifier: flinks
-      name: 站点示例
-      pageref: /flinks.html
-      pre: thumbs-up
-      weight: 3
-    - identifier: archives
-      name: 归档
-      pageref: /archives
-      pre: archive
-      weight: 4
-    - identifier: commonweal
-      name: 公益 404
-      url: /404.html
-      pre: heartbeat
-      weight: 5
+    # - identifier: about
+    #   name: 关于
+    #   pageref: /about.html
+    #   pre: user
+    #   weight: 2
+    # - identifier: flinks
+    #   name: 站点示例
+    #   pageref: /flinks.html
+    #   pre: thumbs-up
+    #   weight: 3
+    # - identifier: archives
+    #   name: 归档
+    #   pageref: /archives
+    #   pre: archive
+    #   weight: 4
+    # - identifier: commonweal
+    #   name: 公益 404
+    #   url: /404.html
+    #   pre: heartbeat
+    #   weight: 5
 
 #-----------------------------------------
 # Hugo NexT 主题参数配置
@@ -168,9 +168,9 @@ params:
 
   # 页面模式
   # Schemes
-  #scheme: Muse
-  #scheme: Mist
-  #scheme: Pisces
+  # scheme: Muse
+  # scheme: Mist
+  # scheme: Pisces
   scheme: Gemini
 
   # 开启暗模式
@@ -189,13 +189,13 @@ params:
   # Different size of favicon
   favicon:
     icon: /imgs/icons/favicon.ico
-    small: /imgs/icons/favicon_16x16_next.png
-    medium: /imgs/icons/favicon_32_32_next.png
-    appleTouchIcon: /imgs/icons/apple_touch_icon_next.png
+    small: /imgs/icons/favicon_16x16.png
+    medium: /imgs/icons/favicon_32_32.png
+    appleTouchIcon: /imgs/icons/apple_touch_icon.png
 
   # 自定义 Logo （目前只支持 Mist 页面模式）
   # Custom Logo (Warning: Only support scheme Mist)
-  customLogo: #/imgs/hugo_next_logo.png
+  # customLogo: /imgs/icons/apple_touch_icon.png
 
   # 用户自定义文件配置
   # Define custom file paths.
@@ -214,7 +214,7 @@ params:
     license: by-nc-sa
     # 可选配置： big | small
     # Available values: big | small
-    size: big
+    size: small
     # 侧边栏显示
     # Show in sidebar
     sidebar: true
@@ -286,7 +286,7 @@ params:
   avatar:
     # 设置显示头像的相对路径
     # Replace the default image and set the url here.
-    url: /imgs/hugo_next_avatar.png
+    url: /imgs/yantao.jpg
     # 开启头像的圆形显示效果
     # If true, the avatar will be displayed in circle.
     rounded: true
@@ -314,7 +314,7 @@ params:
   # Key is the link label order.
   # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
   # socials: 
-    # social0: Github || https://github.com/elkan1788 || fab fa-github
+    social0: Github || https://github.com/almightyYantao || fab fa-github
     #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
     # social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
     #Google: https://plus.google.com/yourname || fab fa-google
@@ -509,7 +509,7 @@ params:
     # 是否开启捐赠按钮，开启后将在每个文章页面底部显示
     # If true, a donate button will be displayed 
     # in every article by default.
-    enable: true
+    enable: false
     # 是否开启捐赠方式的动画效果
     # If true, the donate type title will with animation.
     animation: true
@@ -530,17 +530,17 @@ params:
   # 用例： `key: 名称 || 链接（图像地址）|| icon名称`
   # Subscribe through Telegram Channel, Twitter, etc.
   # Usage: `Key: name || permalink || icon` (Font Awesome)
-  followMe:
+  # followMe:
     #channel0: Twitter || https://twitter.com/username || fab fa-twitter
     #channel1: Telegram || https://t.me/channel_name || fab fa-telegram
-    channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
-    channel3: RSS || /atom.xml || fa fa-rss
+    # channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
+    # channel3: RSS || /atom.xml || fa fa-rss
 
   # 文章的在线编辑
   # Post edit
   # Easily browse and edit blog source code online.
   postEdit:
-    enable: true
+    enable: false
     url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/
 
 
@@ -639,7 +639,7 @@ params:
     enable: true
     # 你的 Github 仓库地址
     # Your repository url on Github.
-    permalink: https://github.com/hugo-next
+    permalink: https://github.com/almightyYantao
     # 关注说明
     # Show this title when cursor move on.
     title: Follow me on GitHub
@@ -791,17 +791,17 @@ params:
   comments:
     # 开启评论组件
     # If true, will show comment component in post end.
-    enable: false   
+    enable: true   
     # 设置默认使用的评论插件
     # 可选值：livere | waline | utterances | artalk | giscus
     # Choose a comment system to be displayed by default.
     # Available values: livere | waline | utterances | artalk | giscus 
-    active: giscus
+    active: waline
     # 让用户自己选择使用评论插件留言
     # 如果设置为 false，将采用 active 参数的那个插件
     # Setting `true` means remembering the comment system selected by 
     # the visitor, otherwise use the `active` setting comment system.
-    storage: true
+    storage: false
     # TODO
     # Lazyload all comment systems.
     # lazyload: false
@@ -832,7 +832,7 @@ params:
     reaction: true
     reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
     reactionTitle: "你认为这篇文章怎么样？"
-    serverURL: #<your waline server url>
+    serverURL: https://comment.yantao.wiki
 
   # Artalk 评论插件
   # 更多配置信息请参考：https://artalk.js.org
@@ -1083,7 +1083,7 @@ params:
   # Progress bar in the top during page loading.
   # For more information: https://github.com/CodeByZach/pace
   pace:
-    enable: false
+    enable: true
     # All available colors:
     # black | blue | green | orange | pink | purple | red | silver | white | yellow
     color: blue
