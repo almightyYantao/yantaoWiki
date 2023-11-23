@@ -2,6 +2,7 @@
 title: CentOS 7 安装 Confluence 并且破解
 date: 2023-11-20
 tags: ['CentOS','Confluence','破解']  
+categories: ['DevOps','Confluence']
 ---
 
 ## 简介
