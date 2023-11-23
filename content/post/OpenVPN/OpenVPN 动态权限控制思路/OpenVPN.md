@@ -5,7 +5,7 @@ tags:
  - OpenVPN
  - 权限管理
 imgs: "/img/banner.jpg"
-categories: ['openvpn']
+categories: ['OpenVPN']
 mermaid: true
 ---
 
