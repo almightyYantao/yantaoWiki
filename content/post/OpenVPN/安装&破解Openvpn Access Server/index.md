@@ -1,6 +1,7 @@
 ---
 title: 安装&破解Openvpn Access Server
 tags: [ '2.9.0','openvpn','openvpn access server','破解' ]
+categories: ['openvpn']
 date: 2023-11-19
 ---
 

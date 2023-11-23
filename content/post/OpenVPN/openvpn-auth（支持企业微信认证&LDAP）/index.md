@@ -2,6 +2,7 @@
 title: openvpn-auth（支持企业微信认证&LDAP）
 date: 2023-11-19
 tags: ['openvpn','openvpn-auth','wecom','企业微信','认证','ldap'] 
+categories: ['openvpn']
 ---
 ## 方案介绍
 
