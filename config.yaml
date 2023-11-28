@@ -419,9 +419,9 @@ params:
     # Beian ICP and gongan information for Chinese users. 
     # See: https://beian.miit.gov.cn, http://www.beian.gov.cn
     beian:
-      enable: false
+      enable: true
       # ICP 备案的具体信息
-      # icp: 粤ICP备 18047355-1 号
+      icp: 浙ICP备2023043719号
       # 公安网备的省份简称
       # provinceAbbr: 沪
       # 公安网备案号
