@@ -498,7 +498,7 @@ dd {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  font-size: 0.875em;
+  font-size: 0.675em;
   margin: 0 0 20px;
   width: 100%;
 }
@@ -535,7 +535,7 @@ td {
   border-radius: 2px;
   color: var(--btn-default-color);
   display: inline-block;
-  font-size: 0.875em;
+  font-size: 0.675em;
   line-height: 2;
   padding: 0 20px;
   transition: background-color 0.2s ease-in-out;
@@ -1205,7 +1205,7 @@ kbd {
 
 @media (max-width: 567px) {
   .post-comments .comment-head .comment-headline {
-    font-size: 0.8125em;
+    font-size: 0.6125em;
   }
 }
 
@@ -1562,7 +1562,7 @@ header.header {
 
 .site-subtitle {
   color: #ddd;
-  font-size: 0.8125em;
+  font-size: 0.6125em;
   margin: 10px 0;
 }
 
@@ -1635,7 +1635,7 @@ header.header {
 .menu-item a {
   border-bottom: 0;
   display: block;
-  font-size: 0.8125em;
+  font-size: 0.6125em;
   transition: border-color 0.2s ease-in-out;
 }
 
@@ -1795,12 +1795,12 @@ header.header {
 
 .site-description {
   color: #999;
-  font-size: 0.8125em;
+  font-size: 0.6125em;
   margin-top: 0;
 }
 
 .links-of-author a, .links-of-social a {
-  font-size: 0.8125em;
+  font-size: 0.6125em;
 }
 
 .links-of-author .fa, .links-of-author .fab, .links-of-author .far, .links-of-author .fas, .links-of-social .fa, .links-of-social .fab, .links-of-social .far, .links-of-social .fas {
@@ -1831,11 +1831,11 @@ header.header {
 }
 
 .links-of-blogroll {
-  font-size: 0.8125em;
+  font-size: 0.6125em;
 }
 
 .links-of-blogroll-title {
-  font-size: 0.875em;
+  font-size: 0.675em;
   font-weight: 600;
   margin-top: 0;
 }
@@ -1886,7 +1886,7 @@ header.header {
   color: var(--text-color);
   cursor: pointer;
   display: inline-block;
-  font-size: 0.875em;
+  font-size: 0.675em;
 }
 
 .sidebar-nav li.sidebar-nav-overview {
@@ -1991,7 +1991,7 @@ header.header {
 }
 
 .post-toc {
-  font-size: 0.875em;
+  font-size: 0.675em;
   padding: 0 8px;
 }
 
@@ -2108,7 +2108,7 @@ header.header {
 
 .site-state-item-name {
   color: #999;
-  font-size: 0.8125em;
+  font-size: 0.6125em;
 }
 
 .sidebar-card-widget {
@@ -2122,7 +2122,7 @@ header.header {
 
 .sidebar-card-widget .item-headline {
   text-align: left;
-  font-size: 0.875em;
+  font-size: 0.675em;
   font-weight: bold;
 }
 
@@ -2131,7 +2131,7 @@ header.header {
 }
 
 .sidebar-card-widget .siteinfo {
-  font-size: 0.875em;
+  font-size: 0.675em;
   text-align: left;
 }
 
@@ -2171,7 +2171,7 @@ header.header {
 
 .footer {
   color: #999;
-  font-size: 0.875em;
+  font-size: 0.675em;
   padding: 20px 0;
 }
 
@@ -2206,13 +2206,13 @@ header.header {
 
 @media (max-width: 767px) {
   .footer-inner {
-    font-size: 0.8125em;
+    font-size: 0.6125em;
   }
 }
 
 @media (max-width: 567px) {
   .footer-inner {
-    font-size: 0.75em;
+    font-size: 0.55em;
   }
 }
 
@@ -2222,7 +2222,7 @@ header.header {
 }
 
 .footer-inner .google-translate .fa {
-  font-size: 1.25em;
+  font-size: 1em;
   margin: auto 0;
   line-height: normal;
 }
@@ -2233,7 +2233,7 @@ header.header {
 
 .languages {
   display: inline-block;
-  font-size: 1.125em;
+  font-size: 0.9em;
   position: relative;
 }
 
@@ -2340,7 +2340,7 @@ header.header {
   background: none;
   bottom: 58px;
   filter: alpha(opacity=0);
-  font-size: 0.8125em;
+  font-size: 0.6125em;
 }
 
 @media (max-width: 991px) {
@@ -2361,7 +2361,7 @@ header.header {
 
 @media (max-width: 767px) {
   .tool-buttons {
-    font-size: 0.75em;
+    font-size: 0.55em;
   }
 }
 
@@ -2526,7 +2526,7 @@ header.header {
 }
 
 .posts-collapse .post-content .collection-title {
-  font-size: 1.125em;
+  font-size: 0.9em;
   position: relative;
 }
 
@@ -2544,7 +2544,7 @@ header.header {
 }
 
 .posts-collapse .post-content .collection-year {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
   margin: 60px 0;
   position: relative;
@@ -2585,7 +2585,7 @@ header.header {
   border: 1px solid white;
   left: -6px;
   position: absolute;
-  top: 0.75em;
+  top: 0.55em;
   transition: background 0.2s ease-in-out;
   border-radius: 50%;
   content: ' ';
@@ -2603,7 +2603,7 @@ header.header {
 
 .posts-collapse .post-content .post-meta-container {
   display: inline;
-  font-size: 0.75em;
+  font-size: 0.55em;
   margin-right: 10px;
 }
 
@@ -2617,7 +2617,7 @@ header.header {
 }
 
 .posts-collapse .post-content .post-title .fa-external-link-alt {
-  font-size: 0.875em;
+  font-size: 0.675em;
   margin-left: 5px;
 }
 
@@ -2638,7 +2638,7 @@ header.header {
 
 @media (min-width: 1200px) {
   .post-body {
-    font-size: 1.125em;
+    font-size: 0.9em;
   }
 }
 
@@ -2658,7 +2658,7 @@ header.header {
   border-bottom-style: none;
   color: inherit;
   float: right;
-  font-size: 0.875em;
+  font-size: 0.675em;
   margin-left: 10px;
   opacity: 0;
 }
@@ -2678,13 +2678,13 @@ header.header {
 }
 
 .post-body .exturl .fa {
-  font-size: 0.875em;
+  font-size: 0.675em;
   margin-left: 4px;
 }
 
 .post-body .image-caption, .post-body img + figcaption, .post-body .fancybox + figcaption {
   color: #999;
-  font-size: 0.875em;
+  font-size: 0.675em;
   font-weight: bold;
   line-height: 1;
   margin: -15px auto 15px;
@@ -2751,13 +2751,13 @@ header.header {
 }
 
 .posts-expand .post-header {
-  font-size: 1.125em;
+  font-size: 0.9em;
   margin-bottom: 40px;
   text-align: center;
 }
 
 .posts-expand .post-title {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: normal;
   margin: initial;
   overflow-wrap: break-word;
@@ -2787,7 +2787,7 @@ header.header {
 }
 
 .posts-expand .post-title-link .fa-external-link-alt {
-  font-size: 0.875em;
+  font-size: 0.675em;
   margin-left: 5px;
 }
 
@@ -2800,12 +2800,12 @@ header.header {
 .posts-expand .post-meta-container {
   color: #999;
   font-family: posts, global, "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 0.75em;
+  font-size: 0.55em;
   margin-top: 3px;
 }
 
 .posts-expand .post-meta-container .post-description {
-  font-size: 0.875em;
+  font-size: 0.675em;
   margin-top: 2px;
 }
 
@@ -2860,7 +2860,7 @@ header.header {
 .post-nav-item a {
   border-bottom: 0;
   display: block;
-  font-size: 0.875em;
+  font-size: 0.675em;
   line-height: 1.6;
 }
 
@@ -2869,7 +2869,7 @@ header.header {
 }
 
 .post-nav-item .fa {
-  font-size: 0.75em;
+  font-size: 0.55em;
 }
 
 .post-nav-item:first-child .fa {
@@ -2955,7 +2955,7 @@ header.header {
 
 .post-tags a {
   display: inline-block;
-  font-size: 0.8125em;
+  font-size: 0.6125em;
 }
 
 .post-tags a:before {
@@ -2983,7 +2983,7 @@ header.header {
 
 .social-like {
   display: flex;
-  font-size: 0.875em;
+  font-size: 0.675em;
   justify-content: center;
   text-align: center;
 }
@@ -3223,7 +3223,7 @@ header.header {
 }
 
 ul.breadcrumb {
-  font-size: 0.75em;
+  font-size: 0.55em;
   list-style: none;
   margin: 1em 0;
   padding: 0 2em;
@@ -3570,7 +3570,7 @@ ul.breadcrumb li:last-child {
 }
 
 .search-popup .search-footer .search-meta-info .search-hit-stats {
-  font-size: 0.8125em;
+  font-size: 0.6125em;
   width: 65%;
   padding: 2px 8px;
 }
@@ -3578,7 +3578,7 @@ ul.breadcrumb li:last-child {
 .search-popup .search-footer .search-meta-info .search-vendor {
   width: 34%;
   text-align: right;
-  font-size: 0.875em;
+  font-size: 0.675em;
   font-weight: bold;
 }
 
@@ -3636,7 +3636,7 @@ mark.search-keyword {
 .algolia-pagination {
   opacity: 1;
   padding: 0;
-  font-size: 0.75em;
+  font-size: 0.55em;
   margin-bottom: -16px;
 }
 
