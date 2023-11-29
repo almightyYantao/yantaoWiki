@@ -742,18 +742,18 @@ params:
   # 注意这里全局配置，意味着所有页面都会加载数学公式脚本
   # Math Formulas Render Support, options: mathjax, katex
   # Warning: It's global settings then will load scripts in every page.
-  #math: mathjax
+  math: mathjax
 
   # TODO
   # FancyBox is a tool that offers a nice and elegant way 
   # to add zooming functionality for images.
   # For more information: https://fancyapps.com/fancybox/
-  fancybox: false
+  fancybox: true
 
   # TODO
   # Vanilla JavaScript plugin for lazyloading images.
   # For more information: https://apoorv.pro/lozad.js/demo/
-  lazyload: false
+  lazyload: true
 
   # TODO
   # Pangu Support
@@ -766,12 +766,12 @@ params:
   # For more information: https://getquick.link
   # Front-matter variable (nonsupport home archive).
   quicklink:
-    enable: false
+    enable: true
 
     # Home page and archive page can be controlled through home and archive options below.
     # This configuration item is independent of `enable`.
-    home: false
-    archive: false
+    home: true
+    archive: true
 
     # Default (true) will initialize quicklink after the load event fires.
     delay: true
@@ -953,10 +953,10 @@ params:
   # Algolia Search
   # For more information: https://www.algolia.com
   algoliaSearch:
-    enable: false
-    appId: #<algolia app id>
-    apiKey: #<algolia api key>
-    indexName: #<algolia index name>
+    enable: true
+    appId: DQFCYWR15M
+    apiKey: 7e1fbfd1839521e0d8ba6bbdfee4fd67
+    indexName: blog
     hits:
       perPage: 10
     # 索引生成内容长度字数限制
@@ -968,7 +968,7 @@ params:
   localSearch:
     # 是否开启搜索功能
     # Enable search function
-    enable: true
+    enable: false
     # 搜索索引文件路径
     # Indexes file path for search
     path: /searchindexes.xml
@@ -1005,7 +1005,7 @@ params:
   # Gitter Support
   # For more information: https://gitter.im
   gitter:
-    enable: true
+    enable: false
     room: hugo-next/community
 
 

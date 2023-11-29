@@ -1087,7 +1087,7 @@ kbd {
   }
 }
 
-.pagination .page-number.current {
+.algolia-pagination .current .page-number, .pagination .page-number.current {
   background: #ccc;
   border-color: #ccc;
   color: var(--content-bg-color);
@@ -3614,27 +3614,47 @@ mark.search-keyword {
   font-weight: bold;
 }
 
-.search-popup .search-input-container {
+.search-input-container {
   flex-grow: 1;
+}
+
+.search-input-container form {
   padding: 2px;
 }
 
-.search-popup .no-result {
+.search-stats {
+  align-items: center;
   display: flex;
+  justify-content: space-between;
 }
 
-.search-popup .search-result-list {
-  width: 100%;
+.search-stats img {
+  height: 1em;
+  margin: 0;
 }
 
-.search-popup .search-result-icon {
-  color: #ccc;
-  margin: auto;
+.algolia-pagination {
+  opacity: 1;
+  padding: 0;
+  font-size: 0.75em;
+  margin-bottom: -16px;
 }
 
-.gitter-open-chat-button {
-  right: auto !important;
-  left: 10px !important;
+.algolia-pagination .pagination {
+  visibility: visible;
+  margin: 0;
+}
+
+.algolia-pagination .pagination-item {
+  display: inline-block;
+}
+
+.algolia-pagination .current .page-number {
+  cursor: default;
+}
+
+.algolia-pagination .disabled-item {
+  visibility: hidden;
 }
 
 .wl-actions > button:nth-child(3) {
