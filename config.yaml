@@ -877,13 +877,13 @@ params:
     repoId: R_kgDOKzThPA
     # 讨论区的分类名称
     # Github discussions category
-    category: Comments
+    category: Q&A
     # 讨论区分类 ID
     # Generate category Id from Giscus
     categoryId: DIC_kwDOKzThPM4CbWUz
     # 帖子上的反应将会显示在评论前
     # The reactions for post will be shown before the comments
-    reactions: false
+    reactions: true
     # 将元数据定期被发送到父页面（被嵌入的页面或控制台，用于调试）
     # Metadata will be sent periodically to the parent window
     emit: false
@@ -891,7 +891,7 @@ params:
     # Aavilable value: top | bottom
     # 讨论区帖子标题，可选值： pathname | url | title | og:title | 自定义
     # Available values: pathname | url | title | og:title | custom
-    mapping: title
+    mapping: pathname
     # 评论输入框的位置，可选值： top | bottom
     # Aavilable value: top | bottom
     inputPosition: top
