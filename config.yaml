@@ -481,7 +481,7 @@ params:
     readTime: true
     # 是否开启评论数显示
     comments: 
-      enable: true
+      enable: false
       # 评论统计插件，暂只支持waline
       # Comment counter plugin, only support waline
       plugin: waline
@@ -796,7 +796,7 @@ params:
     # 可选值：livere | waline | utterances | artalk | giscus
     # Choose a comment system to be displayed by default.
     # Available values: livere | waline | utterances | artalk | giscus 
-    active: waline
+    active: giscus
     # 让用户自己选择使用评论插件留言
     # 如果设置为 false，将采用 active 参数的那个插件
     # Setting `true` means remembering the comment system selected by 
@@ -809,13 +809,9 @@ params:
     # `name` 参数名可选值：livere | waline | utterances | artalk | giscus
     # Modify texts or order for any naves, here are some examples.
     nav:
-      - name: waline
-        title: Waline
-        color: "#27ae60"
-        weight: 2
       - name: giscus
-        title: Giscus
-        color: "#886ce4"
+        title: giscus
+        color: "#27ae60"
         weight: 1
 
   # Waline 评论插件
@@ -825,7 +821,7 @@ params:
   waline:
     placeholder: "请文明发言哟 ヾ(≧▽≦*)o"
     sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
-    emoji: false
+    emoji: true
     imgUploader: false
     wordLimit: 200
     requiredMeta: ['nick', 'mail']
@@ -875,16 +871,16 @@ params:
   giscus:
     # Github 仓库地址，格式：用户名/仓库名称
     # Github repository owner and name
-    repo: username/repo-name
+    repo: almightyYantao/blog-comment
     # Giscus 生成的仓库 Id
     # Generate repository Id from Giscus
-    repoId: #<repo-id>
+    repoId: R_kgDOKzThPA
     # 讨论区的分类名称
     # Github discussions category
     category: Comments
     # 讨论区分类 ID
     # Generate category Id from Giscus
-    categoryId: #<category-id>
+    categoryId: DIC_kwDOKzThPM4CbWUz
     # 帖子上的反应将会显示在评论前
     # The reactions for post will be shown before the comments
     reactions: false

@@ -2257,6 +2257,12 @@ header.header {
   animation: beat 1.33s ease-in-out infinite;
 }
 
+.beian img {
+  display: inline-block;
+  margin: 0 3px;
+  vertical-align: middle;
+}
+
 /*
 // < 767px
 @include mobile() {
