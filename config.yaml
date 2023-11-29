@@ -955,7 +955,7 @@ params:
   algoliaSearch:
     enable: true
     appId: DQFCYWR15M
-    apiKey: 7e1fbfd1839521e0d8ba6bbdfee4fd67
+    apiKey: 7cb0c14df21fcbdcc9dc59d1c7d7b139
     indexName: blog
     hits:
       perPage: 10
