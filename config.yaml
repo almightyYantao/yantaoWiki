@@ -791,7 +791,7 @@ params:
   comments:
     # 开启评论组件
     # If true, will show comment component in post end.
-    enable: true   
+    enable: false   
     # 设置默认使用的评论插件
     # 可选值：livere | waline | utterances | artalk | giscus
     # Choose a comment system to be displayed by default.
