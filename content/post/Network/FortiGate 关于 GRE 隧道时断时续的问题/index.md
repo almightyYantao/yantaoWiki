@@ -88,6 +88,13 @@ ping -f 内网地址 -l 1436
 
 调小 mss 即可
 
+主要是这两行
+
+```bash
+        set tcp-mss-sender 1400
+        set tcp-mss-receiver 1400
+```
+
 ```bash
 config firewall policy
     edit 12
