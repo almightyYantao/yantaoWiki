@@ -423,9 +423,9 @@ params:
       # ICP 备案的具体信息
       icp: 浙ICP备2023043719号
       # 公安网备的省份简称
-      # provinceAbbr: 沪
+      provinceAbbr: 浙
       # 公安网备案号
-      # gonganNum: 31011402009770
+      gonganNum: 33010502011750
 
     # 站点支持供应商列表
     # Vendors list who support website. 
