@@ -336,7 +336,7 @@ params:
     iconsOnly: false
     # 开启动画效果
     # Enable animation
-    transition: true
+    transition: false
 
   # 友情链接设置
   # Friend links setting
@@ -1063,8 +1063,8 @@ params:
   # Use Animate.css to animate everything.
   # For more information: https://animate.style
   motion:
-    enable: true
-    async: true
+    enable: false
+    async: false
     transition:
       # All available transition variants: https://theme-next.js.org/animate/
       postBlock: fadeIn
