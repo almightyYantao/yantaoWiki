@@ -2233,7 +2233,7 @@ header.header {
 
 .languages {
   display: inline-block;
-  font-size: 0.9em;
+  font-size: 1.1em;
   position: relative;
 }
 
@@ -2526,7 +2526,7 @@ header.header {
 }
 
 .posts-collapse .post-content .collection-title {
-  font-size: 0.9em;
+  font-size: 1.1em;
   position: relative;
 }
 
@@ -2638,7 +2638,7 @@ header.header {
 
 @media (min-width: 1200px) {
   .post-body {
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
 }
 
@@ -2751,7 +2751,7 @@ header.header {
 }
 
 .posts-expand .post-header {
-  font-size: 0.9em;
+  font-size: 1.1em;
   margin-bottom: 40px;
   text-align: center;
 }
