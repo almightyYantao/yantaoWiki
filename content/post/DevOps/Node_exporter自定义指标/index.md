@@ -100,11 +100,9 @@ do
 done
 ```
 
-
 ### crontab
 
 ```shell
 --执行脚本之前，先清理.prom文件，防止监控指标重复
 */10 * * * * /usr/bin/flock -xn /tmp/flock.lock -c ">/opt/node_exporter/prom/db_heartbeat.prom && /usr/bin/bash /opt/scripts/db_heartbeat.sh >> /opt/scripts/db_heartbeat.log"
 ```
-
